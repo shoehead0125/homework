@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    /*画像ファイルの指定*/
+    background-image: url(images/bg.jpg);
+    /*画像を天地左右中心に配置*/
+    background-position: center center;
+    /*画像を折り返し表示しない*/
+    background-repeat: no-repeat;
+    /*コンテンツの高さが画像より高いときに動かないように固定*/
+    background-attachment: fixed;
+    /*、表示するコンテナの大きさに基いて調整*/
+    background-size: cover;
+    /*背景画像が表示される前の背景のカラー*/
+    background-color: #fff;
+    font-size: 14px;
+}
+
+nav{
+    margin: 0 0 30px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav ul{
+    margin:0 10px;
+}
+nav ul li{
+    margin: 0 20px;
+    display: inline-block;
+}
+nav ul li a{
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+}
+
+nav ul li a.selected{
+    color: #000;
+}
+
+#logo{
+    padding: 20px 0;
+    text-align: center;
+}
+
+#logo img{
+    max-width: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+    
+#logo h1{
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000;
+}
+    
+.container{
+    max-width: 800px;
+    margin: 0px auto 0;
+    background-color: #fff;
+}
+    
+section{
+    padding: 30px 20px;
+}
+
+section h2{
+    padding: 10px 0 20px 0;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+
+
+footer{
+    padding: 20px 0;
+    font-size: 93%;
+    text-align: center;
+    background-color: #ccc;
+    color: #666;
+}
+
+span.green{
+    color: green;
+}
